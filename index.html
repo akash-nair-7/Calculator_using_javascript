@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="mainbody">
+        <div class="calc">
+                <div class="output">
+                    <input type="text" id="screen">
+                </div>
+                <div class="buttons">
+                    <button onclick="cclear()" class="btn" id="btnc">C</button>
+                    <div class="row">
+                        <button onclick="bclick(7)" class="btn" id="btn7">7</button>
+                        <button onclick="bclick(8)" class="btn">8</button>  
+                        <button onclick="bclick(9)" class="btn">9</button> 
+                        <button onclick="bclick('+')" class="btnop" >+</button>                     
+                    </div>
+                    <div class="row">
+                        <button onclick="bclick(4)" class="btn" id="btn4">4</button>
+                        <button onclick="bclick(5)" class="btn">5</button>
+                        <button onclick="bclick(6)" class="btn">6</button>
+                        <button onclick="bclick('-')" class="btnop">-</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="bclick(1)" class="btn" id="btn1">1</button>
+                        <button onclick="bclick(2)" class="btn">2</button>
+                        <button onclick="bclick(3)" class="btn">3</button>
+                        <button onclick="bclick('*')" class="btnop">*</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="bclick('.')" class="btn" id="btndot">.</button>
+                        <button onclick="bclick(0)" class="btn">0</button>
+                        <button onclick="bclick('/')" class="btnop">/</button>
+                        <button onclick="equalclick('=')" class="btnop">=</button>
+                    </div>
+                    <div class="box">
+                        <h1 id="heading">CALCULATOR</h1>
+                    </div>
+
+                </div>
+        </div>
+
+    </div>
+</body>
+</html>
